@@ -1,0 +1,136 @@
+/* Reset de estilos para remover margens e preenchimento padrão */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+/* Estilos para o cabeçalho */
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 0 -20px +30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.logo h2{
+    text-align: center;
+    margin-top: 15px;
+    
+}
+.logo{
+    text-align: center;
+    display: flex;
+}
+
+.logo img {
+    width: 50px; /* Ajuste o tamanho do logotipo conforme necessário */
+    margin-right: 10px;
+}
+
+h2{
+   text-align: center; 
+}
+
+/* Estilos para a navegação horizontal */
+
+.menu{
+    background-color: #333;
+    margin-top: -10px;
+}
+
+nav ul {
+    list-style: none;
+    text-align: center;
+    margin: 10px;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+}
+
+/* Baner  */
+
+
+
+.slideshow-container {
+    position: relative;
+    max-width: 800px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+.mySlides {
+    display: none;
+    animation: fade 3s linear infinite;
+}
+
+img {
+    width: 100%;
+    height: auto;
+}
+
+@keyframes fade {
+    0% {
+        opacity: 0;
+    }
+    25% {
+        opacity: 1;
+    }
+    75% {
+        opacity: 1;
+    }
+    100% {
+        opacity: 0;
+    }
+}
+
+
+/*Jogadores do Mês*/
+
+.MES{
+    
+    text-align: center;
+    border-radius: 20px;
+    margin-top: 20px;
+
+
+}
+
+
+/* Estilos para o contador regressivo */
+.countdown {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    text-align: center;
+    margin: -10px 0;
+}
+
+#timer {
+    font-size: 32px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+span {
+    display: inline-block;
+    font-size: 24px;
+    margin: 0 5px;
+    background-color: #555;
+    padding: 10px;
+    border-radius: 5px;
+    margin-top: 10px;
+}
